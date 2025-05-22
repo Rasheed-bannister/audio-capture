@@ -1,10 +1,10 @@
 [project]
 name = "audio"
 version = "0.1.0"
-description = "Add your description here"
+description = "Audio capture application using ffmpeg"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [] # ffmpeg is an external CLI tool, not a Python library here
 
 [dependency-groups]
 dev = [
